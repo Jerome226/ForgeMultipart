@@ -40,6 +40,49 @@ object ConfigContent
         writer.println("#<name> is the unlocalised name or registry key of the block/item enclosed in quotes. NEI can help you find these")
         writer.println("#<meta> may be ommitted, in which case it defaults to 0, otherwise it can be a number, a comma separated list of numbers, or a dash separated range")
         writer.println("#Ex. \"dirt\" \"minecraft:planks\":3 \"iron_ore\":1,2,3,5 \"ThermalFoundation:Storage\":0-15")
+        writer.println("\"terrafirmacraftplus:StoneIgIn\":0-2")
+        writer.println("\"terrafirmacraftplus:StoneIgEx\":0-3")
+        writer.println("\"terrafirmacraftplus:StoneSed\":0-7")
+        writer.println("\"terrafirmacraftplus:StoneMM\":0-5")
+
+        writer.println("\"terrafirmacraftplus:StoneIgInCobble\":0-2")
+        writer.println("\"terrafirmacraftplus:StoneIgExCobble\":0-3")
+        writer.println("\"terrafirmacraftplus:StoneSedCobble\":0-7")
+        writer.println("\"terrafirmacraftplus:StoneMMCobble\":0-5")
+
+        writer.println("\"terrafirmacraftplus:StoneIgInSmooth\":0-2")
+        writer.println("\"terrafirmacraftplus:StoneIgExSmooth\":0-3")
+        writer.println("\"terrafirmacraftplus:StoneSedSmooth\":0-7")
+        writer.println("\"terrafirmacraftplus:StoneMMSmooth\":0-5")
+
+        writer.println("\"terrafirmacraftplus:StoneIgInBrick\":0-2")
+        writer.println("\"terrafirmacraftplus:StoneIgExBrick\":0-3")
+        writer.println("\"terrafirmacraftplus:StoneSedBrick\":0-7")
+        writer.println("\"terrafirmacraftplus:StoneMMBrick\":0-5")
+
+        writer.println("\"terrafirmacraftplus:StoneIgInLargeBrick\":0-2")
+        writer.println("\"terrafirmacraftplus:StoneIgExLargeBrick\":0-3")
+        writer.println("\"terrafirmacraftplus:StoneSedLargeBrick\":0-7")
+        writer.println("\"terrafirmacraftplus:StoneMMLargeBrick\":0-5")
+
+        writer.println("\"terrafirmacraftplus:Sand\":0-15")
+        writer.println("\"terrafirmacraftplus:Sand2\":0-4")
+
+        writer.println("\"terrafirmacraftplus:Dirt\":0-15")
+        writer.println("\"terrafirmacraftplus:Dirt2\":0-4")
+
+        writer.println("\"terrafirmacraftplus:Gravel\":0-15")
+        writer.println("\"terrafirmacraftplus:Gravel2\":0-4")
+
+        writer.println("\"terrafirmacraftplus:mudBricks\":0-15")
+        writer.println("\"terrafirmacraftplus:mudBricks2\":0-4")
+
+        writer.println("\"terrafirmacraftplus:planks\":0-15")
+        writer.println("\"terrafirmacraftplus:planks2\":0-15")
+        writer.println("\"terrafirmacraftplus:planks3\":0")
+
+        writer.println("\"terrafirmacraftplus:item.Thick Log\":0-32")
+
         writer.close()
     }
 
